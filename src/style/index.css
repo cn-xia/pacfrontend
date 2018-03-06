@@ -1,0 +1,61 @@
+#app{
+    background:#fff;
+}
+/*******头部栏*******/
+#header{
+    width: 100%;
+    height: 40px;
+    background: #424f63;
+    /* margin:0 auto; */
+}
+/*******end*********/
+
+/******顶部步骤条*********/
+.top-step-bar{
+    width: 100%;
+    background: #fff;
+   /*  position: relative; */
+   /*  top: 38px;  */
+    /* z-index: 102; */
+    margin:0px 0px;
+    margin-bottom: 10px;
+    /* padding-left:0%; */
+    height:100px;
+    /* padding-left:5%;  */
+}
+.top-step-box{
+    width:10%;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.top-step-img{
+    width: 50%;
+}
+.top-step-text{
+    font-size:13px;
+    color:#ccc;
+    display: block;
+    position: relative;
+    top:-10px;
+    left:1%;
+}
+.top-step-line{
+    /* width: 60px; */
+    height:0px;
+    border:4px dashed #f0f0f0;
+    display: inline-block;
+    margin: 0px 10px 31px;    
+    position: relative;
+    top:-12px;
+    width: 5%;
+}
+
+/********end**********/
+
+/*****公共样式*********/
+*{
+	margin:0px;
+	padding: 0px;
+}
+/******end******/
